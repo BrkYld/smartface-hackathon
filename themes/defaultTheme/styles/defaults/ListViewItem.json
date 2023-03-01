@@ -9,5 +9,8 @@
       "alignContent": "STRETCH",
       "alignItems": "STRETCH"
     }
+  },
+  ".sf": {
+    "&-listView": {}
   }
 }

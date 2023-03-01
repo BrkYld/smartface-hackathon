@@ -7,5 +7,10 @@
     "titleColor": "${white}",
     "itemColor": "${white}",
     "borderVisibility": false
+  },
+  ".headerBar": {
+    "titleColor": "rgba( 75, 140, 163, 1 )",
+    "itemColor": "rgba( 75, 140, 163, 1 )",
+    "backgroundColor": "rgba( 255, 255, 255, 1 )"
   }
 }

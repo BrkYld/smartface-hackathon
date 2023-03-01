@@ -1,0 +1,10 @@
+{
+  ".bottomTabbar": {
+    "backgroundColor": "rgba( 255, 255, 255, 1 )",
+    "itemColor": {
+      "normal": "rgba( 0, 0, 0, 1 )",
+      "selected": "rgba( 75, 140, 163, 1 )"
+    },
+    "iconSize": 30
+  }
+}

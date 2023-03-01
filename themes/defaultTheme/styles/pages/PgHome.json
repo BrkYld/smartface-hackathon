@@ -1,0 +1,44 @@
+{
+  "#pgHome": {
+    "backgroundColor": "rgba( 231, 231, 231, 1 )",
+    "&-lvMain": {
+      "backgroundColor": "rgba( 255, 255, 255, 0 )",
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1
+      },
+      "width": null,
+      "height": null
+    },
+    "&-lvItem": {
+      "&-container": {
+        "backgroundColor": "rgba( 255, 255, 255, 1 )",
+        "flexProps": {
+          "alignItems": "STRETCH",
+          "justifyContent": "CENTER",
+          "flexGrow": 1,
+          "flexShrink": 1
+        }
+      },
+      "paddingLeft": 10,
+      "paddingTop": 10,
+      "paddingRight": 10,
+      "paddingBottom": 10,
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "alignSelf": "STRETCH"
+      }
+    },
+    "&-container": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "positionType": "RELATIVE",
+        "alignSelf": "STRETCH"
+      },
+      "width": null,
+      "height": null
+    }
+  }
+}

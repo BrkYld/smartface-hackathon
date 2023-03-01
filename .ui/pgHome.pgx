@@ -1,14 +1,14 @@
 {
 	"components": [
 		{
-			"className": ".sf-page",
+			"className": ".sf-page #pgHome",
 			"id": "5400-3e85-ffa9-7094",
 			"initialized": true,
 			"props": {
 				"children": [
 					"55a0-ac0b-42db-6063",
 					"8fbc-6e97-3cf3-3154",
-					"1eb8-4152-a6cb-9ed2"
+					"78b2-5ece-b208-7917"
 				],
 				"name": "pgHome",
 				"orientation": "PORTRAIT",
@@ -31,27 +31,74 @@
 			"userProps": {}
 		},
 		{
-			"className": ".sf-headerBar",
+			"className": ".sf-headerBar .headerBar",
 			"id": "8fbc-6e97-3cf3-3154",
 			"props": {
 				"children": [],
 				"isRemovable": false,
 				"name": "headerBar",
 				"parent": "5400-3e85-ffa9-7094",
-				"title": "pgHome"
+				"title": "Ana Sayfa"
 			},
 			"type": "HeaderBar",
 			"userProps": {
-				"title": "pgHome"
+				"title": "Ana Sayfa"
 			}
 		},
 		{
-			"className": ".sf-flexLayout",
-			"id": "1eb8-4152-a6cb-9ed2",
+			"className": ".sf-flexLayout #pgHome-container",
+			"id": "78b2-5ece-b208-7917",
+			"props": {
+				"children": [
+					"4811-8428-a56c-333a"
+				],
+				"name": "flexLayout2",
+				"parent": "5400-3e85-ffa9-7094"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView #pgHome-lvMain",
+			"id": "4811-8428-a56c-333a",
+			"oldName": "listView1",
+			"props": {
+				"children": [
+					"b0cc-84cb-c584-2ffd"
+				],
+				"itemCount": 5,
+				"name": "lvMain",
+				"parent": "78b2-5ece-b208-7917",
+				"refreshEnabled": false,
+				"rowHeight": 125
+			},
+			"type": "ListView",
+			"userProps": {
+				"itemCount": 5,
+				"refreshEnabled": false,
+				"rowHeight": 125
+			}
+		},
+		{
+			"className": ".sf-listViewItem #pgHome-lvItem",
+			"id": "b0cc-84cb-c584-2ffd",
+			"props": {
+				"children": [
+					"61b4-7e9e-dcd9-c061"
+				],
+				"name": "listViewItem1",
+				"parent": "4811-8428-a56c-333a"
+			},
+			"type": "ListViewItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome-lvItem-container",
+			"id": "61b4-7e9e-dcd9-c061",
 			"props": {
 				"children": [],
 				"name": "flexLayout1",
-				"parent": "5400-3e85-ffa9-7094"
+				"parent": "b0cc-84cb-c584-2ffd"
 			},
 			"type": "FlexLayout",
 			"userProps": {}
