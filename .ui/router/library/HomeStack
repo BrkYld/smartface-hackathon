@@ -1,0 +1,33 @@
+[
+	{
+		"id": "0062cda0-9ce2-4495-beb9-c75097677260",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "homeStack",
+		"children": [
+			"67e12bc8-94c2-490b-8149-6361b9185872"
+		],
+		"props": {
+			"path": "homeStack",
+			"x": 179.7595703584795,
+			"y": -112.0644170143849,
+			"to": "home",
+			"homeRoute": "home"
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "67e12bc8-94c2-490b-8149-6361b9185872",
+		"type": "Route",
+		"isContainer": false,
+		"name": "home",
+		"children": [],
+		"props": {
+			"path": "home",
+			"x": 338.7595703584795,
+			"y": 48.4355829856151,
+			"page": "pgHome"
+		},
+		"parent": "0062cda0-9ce2-4495-beb9-c75097677260"
+	}
+]
