@@ -95,13 +95,237 @@
 		{
 			"className": ".sf-flexLayout #pgHome-lvItem-container",
 			"id": "61b4-7e9e-dcd9-c061",
+			"oldName": "flexLayout1",
 			"props": {
-				"children": [],
-				"name": "flexLayout1",
+				"children": [
+					"9d03-5527-3772-fa17",
+					"29ff-5875-22c1-7cc3"
+				],
+				"name": "flItemContainer",
 				"parent": "b0cc-84cb-c584-2ffd"
 			},
 			"type": "FlexLayout",
 			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome-lvItem-container-icon",
+			"id": "9d03-5527-3772-fa17",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"24a2-af0f-0896-28a6"
+				],
+				"name": "flIcon",
+				"parent": "61b4-7e9e-dcd9-c061"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgHome-lvItem-container-icon-imgLogo",
+			"id": "24a2-af0f-0896-28a6",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgLogo",
+				"parent": "9d03-5527-3772-fa17"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome-lvItem-container-detail",
+			"id": "29ff-5875-22c1-7cc3",
+			"oldName": "flexLayout3",
+			"props": {
+				"children": [
+					"7259-9d0a-f8df-b673",
+					"502e-3f3f-28f3-35e5"
+				],
+				"name": "flDetail",
+				"parent": "61b4-7e9e-dcd9-c061"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome-lvItem-container-detail-desc",
+			"id": "7259-9d0a-f8df-b673",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"92b2-673e-e725-49fc",
+					"385d-fa8e-d56d-e98b",
+					"6e68-9463-94ed-d3a9"
+				],
+				"name": "flDesc",
+				"parent": "29ff-5875-22c1-7cc3"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome-lvItem-container-detail-desc-title",
+			"id": "92b2-673e-e725-49fc",
+			"oldName": "flexLayout3",
+			"props": {
+				"children": [
+					"afa3-cc6a-2b85-13a4",
+					"1f0d-e91c-a83d-c992",
+					"1677-7872-05d4-cb12",
+					"ea51-770f-db6d-c304",
+					"f5f6-bd96-417b-8ed8",
+					"c66e-44d5-ff84-a586"
+				],
+				"name": "flTitle",
+				"parent": "7259-9d0a-f8df-b673"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgHome-lblTitle",
+			"id": "afa3-cc6a-2b85-13a4",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblTitle",
+				"parent": "92b2-673e-e725-49fc",
+				"text": "İlan Başlık"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "İlan Başlık"
+			}
+		},
+		{
+			"className": ".sf-imageView #pgHome-imgStar",
+			"id": "1f0d-e91c-a83d-c992",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgStar",
+				"parent": "92b2-673e-e725-49fc"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgHome-imgStar",
+			"id": "1677-7872-05d4-cb12",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgStar_1",
+				"parent": "92b2-673e-e725-49fc"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgHome-imgStar",
+			"id": "ea51-770f-db6d-c304",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgStar_2",
+				"parent": "92b2-673e-e725-49fc"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgHome-imgStar #pgHome-imgStar-empty",
+			"id": "f5f6-bd96-417b-8ed8",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgStar_3",
+				"parent": "92b2-673e-e725-49fc"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgHome-imgStar #pgHome-imgStar-empty",
+			"id": "c66e-44d5-ff84-a586",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgStar_4",
+				"parent": "92b2-673e-e725-49fc"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-view #pgHome-seperator",
+			"id": "385d-fa8e-d56d-e98b",
+			"props": {
+				"children": [],
+				"name": "view1",
+				"parent": "7259-9d0a-f8df-b673"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome-lvItem-container-detail-desc-description",
+			"id": "6e68-9463-94ed-d3a9",
+			"oldName": "flexLayout4",
+			"props": {
+				"children": [
+					"7148-e7c9-339c-0632"
+				],
+				"name": "flDescription",
+				"parent": "7259-9d0a-f8df-b673"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgHome-lblDescription",
+			"id": "7148-e7c9-339c-0632",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblDescription",
+				"parent": "6e68-9463-94ed-d3a9",
+				"text": "Açıklama"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Açıklama"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome-lvItem-container-detail-date",
+			"id": "502e-3f3f-28f3-35e5",
+			"oldName": "flexLayout3",
+			"props": {
+				"children": [
+					"ddc7-0fb5-307d-1035"
+				],
+				"name": "flDate",
+				"parent": "29ff-5875-22c1-7cc3"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgHome-lblDescription #pgHome-lblDate",
+			"id": "ddc7-0fb5-307d-1035",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblDate",
+				"parent": "502e-3f3f-28f3-35e5",
+				"text": "01.03.2023 16:50"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "01.03.2023 16:50"
+			}
 		}
 	]
 }

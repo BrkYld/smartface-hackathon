@@ -18,12 +18,20 @@ export default class PgHome extends withDismissAndBackButton(PgHomeDesign) {
     this.headerBar.title ='Ana Sayfa'
     var letftItem = new HeaderBarItem();
     var rightItem = new HeaderBarItem();
-    letftItem.image = 'images://drawer.png'
+    letftItem.image = 'images://settings.png'
     rightItem.image = 'images://filter.png';
-    this.headerBar.setLeftItem(letftItem);
+    rightItem.onPress = () => {
+        this.router.push('filter');
+    }
+    letftItem.onPress = () => {
+        this.router.push('settings');
+    }
+    this.headerBar.leftItemEnabled = true;
     this.headerBar.setItems([
         rightItem
     ])
+    this.headerBar.setLeftItem(letftItem);
+    this.lvMain.refreshData();
   }
 
   /**
@@ -32,5 +40,9 @@ export default class PgHome extends withDismissAndBackButton(PgHomeDesign) {
    */
   onLoad() {
     super.onLoad();
+    this.lvMain.onRowHeight = (index)=> {
+        return 125;
+    }
+    this.lvMain.refreshData();
   }
 }

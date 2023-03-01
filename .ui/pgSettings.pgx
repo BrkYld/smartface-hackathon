@@ -1,0 +1,289 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #pgHome",
+			"id": "a03d-6d55-67a5-a7d9",
+			"initialized": true,
+			"props": {
+				"children": [
+					"7ee7-86e6-a346-ef0b",
+					"8212-fb9c-dd3b-a557",
+					"2170-c96f-b1bc-3730"
+				],
+				"name": "pgSettings",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.11.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "7ee7-86e6-a346-ef0b",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "a03d-6d55-67a5-a7d9"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar .headerBar",
+			"id": "8212-fb9c-dd3b-a557",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "a03d-6d55-67a5-a7d9",
+				"title": "Ayarlar"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Ayarlar"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome-container",
+			"id": "2170-c96f-b1bc-3730",
+			"props": {
+				"children": [
+					"c0d8-1d86-7d40-38eb",
+					"7faa-aea2-fcea-0593",
+					"fffa-8c47-e8f2-d073",
+					"6b9a-0afd-e5a3-0c94",
+					"c397-105a-6600-59ba",
+					"6acf-c881-040b-30f2"
+				],
+				"name": "flexLayout3",
+				"parent": "a03d-6d55-67a5-a7d9"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgSettings-optionContainer",
+			"id": "c0d8-1d86-7d40-38eb",
+			"props": {
+				"children": [
+					"a5db-94d8-6136-7263",
+					"d325-f190-c270-b054"
+				],
+				"name": "flexLayout4",
+				"parent": "2170-c96f-b1bc-3730"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgSettings-optionIcon",
+			"id": "a5db-94d8-6136-7263",
+			"props": {
+				"children": [],
+				"name": "imageView1",
+				"parent": "c0d8-1d86-7d40-38eb"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgSettings-optionLabel",
+			"id": "d325-f190-c270-b054",
+			"props": {
+				"children": [],
+				"name": "label5",
+				"parent": "c0d8-1d86-7d40-38eb",
+				"text": "Dil"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Dil"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSettings-optionContainer",
+			"id": "7faa-aea2-fcea-0593",
+			"props": {
+				"children": [
+					"d5ea-bbfc-998f-9199",
+					"a3b9-c2ac-7b68-6b27"
+				],
+				"name": "flexLayout5",
+				"parent": "2170-c96f-b1bc-3730"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgSettings-optionIcon #pgSettings-imgInfo",
+			"id": "d5ea-bbfc-998f-9199",
+			"props": {
+				"children": [],
+				"name": "imageView1_1",
+				"parent": "7faa-aea2-fcea-0593"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgSettings-optionLabel",
+			"id": "a3b9-c2ac-7b68-6b27",
+			"props": {
+				"children": [],
+				"name": "label5_1",
+				"parent": "7faa-aea2-fcea-0593",
+				"text": "Uygulama Hakkında"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Uygulama Hakkında"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSettings-optionContainer",
+			"id": "fffa-8c47-e8f2-d073",
+			"props": {
+				"children": [
+					"5d00-a979-f334-40dc",
+					"6f21-770d-4511-34a2"
+				],
+				"name": "flexLayout6",
+				"parent": "2170-c96f-b1bc-3730"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgSettings-optionIcon #pgSettings-star",
+			"id": "5d00-a979-f334-40dc",
+			"props": {
+				"children": [],
+				"name": "imageView1_2",
+				"parent": "fffa-8c47-e8f2-d073"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgSettings-optionLabel #pgSettings-lockImg",
+			"id": "6f21-770d-4511-34a2",
+			"props": {
+				"children": [],
+				"name": "label5_2",
+				"parent": "fffa-8c47-e8f2-d073",
+				"text": "Uygulamayı Değerlendirin"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Uygulamayı Değerlendirin"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSettings-optionContainer",
+			"id": "6b9a-0afd-e5a3-0c94",
+			"props": {
+				"children": [
+					"14b3-2760-2e56-3568",
+					"0a90-8c5d-7a3f-8c84"
+				],
+				"name": "flexLayout7",
+				"parent": "2170-c96f-b1bc-3730"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgSettings-optionIcon #pgSettings-imgLock",
+			"id": "14b3-2760-2e56-3568",
+			"props": {
+				"children": [],
+				"name": "imageView1_3",
+				"parent": "6b9a-0afd-e5a3-0c94"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgSettings-optionLabel",
+			"id": "0a90-8c5d-7a3f-8c84",
+			"props": {
+				"children": [],
+				"name": "label5_3",
+				"parent": "6b9a-0afd-e5a3-0c94",
+				"text": "Şifre Değiştir"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Şifre Değiştir"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSettings-optionContainer",
+			"id": "c397-105a-6600-59ba",
+			"props": {
+				"children": [
+					"67a5-3867-29cc-6e92",
+					"d0b0-769c-dea0-655c"
+				],
+				"name": "flexLayout8",
+				"parent": "2170-c96f-b1bc-3730"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgSettings-optionIcon #pgSettings-locIcon",
+			"id": "67a5-3867-29cc-6e92",
+			"props": {
+				"children": [],
+				"name": "imageView1_4",
+				"parent": "c397-105a-6600-59ba"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgSettings-optionLabel",
+			"id": "d0b0-769c-dea0-655c",
+			"props": {
+				"children": [],
+				"name": "label5_4",
+				"parent": "c397-105a-6600-59ba",
+				"text": "Mevcut Konum"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Mevcut Konum"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSettings-optionContainer",
+			"id": "6acf-c881-040b-30f2",
+			"props": {
+				"children": [
+					"7a7b-548a-15cd-3351"
+				],
+				"name": "flexLayout9",
+				"parent": "2170-c96f-b1bc-3730"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgSettings-optionLabel-exit",
+			"id": "7a7b-548a-15cd-3351",
+			"props": {
+				"children": [],
+				"name": "label6",
+				"parent": "6acf-c881-040b-30f2",
+				"text": "Çıkış"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Çıkış"
+			}
+		}
+	]
+}

@@ -17,8 +17,97 @@
           "alignItems": "STRETCH",
           "justifyContent": "CENTER",
           "flexGrow": 1,
-          "flexShrink": 1
-        }
+          "flexShrink": 1,
+          "flexDirection": "ROW"
+        },
+        "&-icon": {
+          "flexProps": {
+            "flexShrink": 1,
+            "flexGrow": 1
+          },
+          "backgroundColor": "rgba( 255, 255, 255, 0 )",
+          "width": null,
+          "height": null,
+          "paddingTop": 5,
+          "paddingLeft": 5,
+          "paddingBottom": 5,
+          "paddingRight": 5,
+          "&-imgLogo": {
+            "image": "home.png",
+            "tintColor": "rgba( 75, 140, 163, 1 )",
+            "backgroundColor": "rgba( 255, 255, 255, 0 )",
+            "flexProps": {
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "alignSelf": "STRETCH"
+            },
+            "imageFillType": "STRETCH",
+            "borderWidth": 1,
+            "borderColor": "rgba( 255, 255, 255, 0 )",
+            "borderRadius": 15
+          },
+          "shadowColor": "rgba( 155, 155, 155, 1 )",
+          "ios": {
+            "shadowOpacity": 0
+          },
+          "alpha": 0.5,
+          "borderColor": "rgba( 155, 155, 155, 1 )",
+          "borderWidth": 1,
+          "borderRadius": 15,
+          "marginRight": 5,
+          "marginLeft": 5,
+          "marginTop": 5,
+          "marginBottom": 5
+        },
+        "&-detail": {
+          "flexProps": {
+            "flexShrink": 1,
+            "flexGrow": 4
+          },
+          "backgroundColor": "rgba( 255, 255, 255, 0 )",
+          "&-desc": {
+            "flexProps": {
+              "flexShrink": 1,
+              "flexGrow": 3,
+              "flexDirection": "COLUMN"
+            },
+            "width": null,
+            "height": null,
+            "backgroundColor": "rgba( 255, 255, 255, 0 )",
+            "&-description": {
+              "flexProps": {
+                "flexShrink": 1,
+                "flexGrow": 2
+              },
+              "width": null,
+              "height": null
+            },
+            "&-title": {
+              "flexProps": {
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "flexDirection": "ROW"
+              },
+              "width": null,
+              "height": null
+            },
+            "paddingTop": 10
+          },
+          "&-date": {
+            "flexProps": {
+              "flexGrow": 1,
+              "flexShrink": 1
+            },
+            "backgroundColor": "rgba( 255, 255, 255, 0 )"
+          },
+          "marginLeft": 5,
+          "width": null,
+          "height": null
+        },
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "paddingBottom": 5,
+        "paddingTop": 5
       },
       "paddingLeft": 10,
       "paddingTop": 10,
@@ -39,6 +128,62 @@
       },
       "width": null,
       "height": null
+    },
+    "&-lblTitle": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1
+      },
+      "font": {
+        "size": 15,
+        "style": "Bold",
+        "family": "Default",
+        "bold": true,
+        "italic": false
+      },
+      "textColor": "rgba( 75, 140, 163, 1 )",
+      "width": null,
+      "height": null
+    },
+    "&-imgStar": {
+      "image": "star.png",
+      "width": 10,
+      "height": 10,
+      "flexProps": {
+        "alignSelf": "CENTER"
+      },
+      "&-empty": {
+        "image": "empty_star.png"
+      }
+    },
+    "&-seperator": {
+      "backgroundColor": "rgba( 155, 155, 155, 1 )",
+      "height": 0.5
+    },
+    "&-lblDescription": {
+      "font": {
+        "size": 10,
+        "family": "Default",
+        "style": "Regular",
+        "bold": false,
+        "italic": false
+      },
+      "textAlignment": "MIDLEFT",
+      "flexProps": {
+        "alignSelf": "STRETCH"
+      },
+      "backgroundColor": "rgba( 255, 255, 255, 0 )",
+      "textColor": "rgba( 74, 74, 74, 1 )",
+      "height": 15
+    },
+    "&-textDescription": {
+      "font": {
+        "size": 10
+      },
+      "textColor": "rgba( 74, 74, 74, 1 )"
+    },
+    "&-lblDate": {
+      "textAlignment": "MIDRIGHT"
     }
   }
 }

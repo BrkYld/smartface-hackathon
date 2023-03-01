@@ -1,0 +1,62 @@
+{
+  "#pgSettings": {
+    "&-optionContainer": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "flexDirection": "ROW",
+        "alignItems": "CENTER",
+        "justifyContent": "CENTER"
+      },
+      "marginTop": 15,
+      "marginBottom": 15,
+      "marginLeft": 15,
+      "marginRight": 15,
+      "backgroundColor": "rgba( 255, 255, 255, 1 )",
+      "borderRadius": 25
+    },
+    "&-optionIcon": {
+      "image": "translation.png",
+      "tintColor": "rgba( 75, 140, 163, 1 )",
+      "imageFillType": "NORMAL",
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1
+      }
+    },
+    "&-optionLabel": {
+      "flexProps": {
+        "flexShrink": 1,
+        "flexGrow": 3
+      },
+      "textColor": "rgba( 74, 74, 74, 1 )",
+      "&-exit": {
+        "flexProps": {
+          "flexGrow": 1,
+          "flexShrink": 1
+        },
+        "textAlignment": "MIDCENTER",
+        "font": {
+          "family": "Default",
+          "style": "Bold",
+          "bold": true,
+          "italic": false,
+          "size": 20
+        },
+        "textColor": "rgba( 233, 92, 108, 1 )"
+      }
+    },
+    "&-imgInfo": {
+      "image": "info.png"
+    },
+    "&-star": {
+      "image": "star_fill.png"
+    },
+    "&-imgLock": {
+      "image": "lock.png"
+    },
+    "&-locIcon": {
+      "image": "pin.png"
+    }
+  }
+}

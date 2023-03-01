@@ -1,0 +1,236 @@
+{
+  "#PgFilter": {
+    "backgroundColor": "rgba( 231, 231, 231, 1 )",
+    "&-container": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1
+      },
+      "backgroundColor": "rgba( 255, 255, 255, 1 )",
+      "marginLeft": 20,
+      "marginTop": 35,
+      "marginBottom": 35,
+      "marginRight": 20,
+      "borderRadius": 15
+    },
+    "&-myCars": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "CENTER",
+        "alignItems": "CENTER"
+      },
+      "paddingTop": 15,
+      "paddingLeft": 15,
+      "paddingBottom": 15,
+      "paddingRight": 15
+    },
+    "&-actionbuttons": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1
+      },
+      "borderColor": "rgba( 74, 74, 74, 1 )"
+    },
+    "&-sort": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1
+      },
+      "paddingTop": 15,
+      "paddingBottom": 15,
+      "paddingLeft": 25,
+      "paddingRight": 25
+    },
+    "&-siderBar": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1
+      }
+    },
+    "&-locationSet": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1
+      }
+    },
+    "&-flCarItem": {
+      "backgroundColor": "rgba( 255, 255, 255, 0 )",
+      "width": null,
+      "height": null,
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "alignSelf": "STRETCH",
+        "flexDirection": "ROW"
+      },
+      "marginBottom": 25,
+      "marginTop": 25,
+      "borderColor": "rgba( 155, 155, 155, 1 )",
+      "borderRadius": 15,
+      "borderWidth": 0.7
+    },
+    "&-carImage": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "alignSelf": "CENTER"
+      },
+      "image": "car.png",
+      "imageFillType": "ASPECTFIT",
+      "tintColor": "rgba( 74, 74, 74, 1 )",
+      "width": 30,
+      "height": 30
+    },
+    "&-carTitle": {
+      "flexProps": {
+        "flexShrink": 1,
+        "flexGrow": 3
+      },
+      "width": null,
+      "height": null,
+      "textColor": "rgba( 74, 74, 74, 1 )",
+      "font": {
+        "size": 17
+      },
+      "textAlignment": "MIDLEFT",
+      "marginLeft": 10
+    },
+    "&-rigtArrow": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "alignSelf": "CENTER"
+      },
+      "image": "right_arrow.png",
+      "tintColor": "rgba( 74, 74, 74, 1 )",
+      "width": 15,
+      "height": 15,
+      "imageFillType": "ASPECTFIT"
+    },
+    "&-carImage2": {
+      "image": "pin.png",
+      "tintColor": "rgba( 233, 92, 108, 1 )"
+    },
+    "&-sider1": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1
+      },
+      "marginLeft": 5,
+      "marginRight": 5,
+      "marginTop": 5,
+      "maxTrackColor": "rgba( 155, 155, 155, 0.59 )",
+      "minTrackColor": "rgba( 255, 193, 7, 1 )",
+      "borderColor": "rgba( 255, 255, 255, 0 )",
+      "thumbColor": "rgba( 255, 193, 7, 1 )",
+      "backgroundColor": "rgba( 255, 255, 255, 0 )"
+    },
+    "&-sliderItem": {
+      "flexProps": {
+        "alignItems": "CENTER",
+        "justifyContent": "CENTER"
+      },
+      "marginBottom": 25,
+      "height": 50
+    },
+    "&-lblCirc": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1
+      },
+      "width": null,
+      "height": null,
+      "textColor": "rgba( 74, 74, 74, 1 )",
+      "font": {
+        "family": "Default",
+        "style": "Bold",
+        "bold": true,
+        "italic": false
+      }
+    },
+    "&-button": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "alignSelf": "CENTER"
+      },
+      "marginLeft": 10,
+      "marginRight": 10,
+      "borderRadius": 20,
+      "height": 40,
+      "backgroundColor": {
+        "normal": "rgba( 233, 92, 108, 1 )"
+      }
+    },
+    "&-flButtonItem": {
+      "borderColor": "rgba( 255, 255, 255, 0 )",
+      "borderWidth": 0,
+      "borderRadius": 0
+    },
+    "&-buttonPrim": {
+      "textColor": "rgba( 255, 255, 255, 1 )",
+      "backgroundColor": {
+        "normal": "rgba( 0, 49, 68, 1 )"
+      }
+    },
+    "&-sortContainer": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1
+      },
+      "backgroundColor": "rgba( 255, 255, 255, 0 )"
+    },
+    "&-sortTitle": {
+      "height": 30,
+      "textColor": "rgba( 75, 140, 163, 1 )",
+      "font": {
+        "family": "Default",
+        "style": "Bold",
+        "bold": true,
+        "italic": false,
+        "size": 17
+      }
+    },
+    "&-gvItem": {
+      "flexProps": {
+        "positionType": "RELATIVE",
+        "alignSelf": "STRETCH"
+      }
+    },
+    "&-gv": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1
+      }
+    },
+    "&-flGV": {
+      "backgroundColor": "rgba( 75, 140, 163, 0.5 )",
+      "flexProps": {
+        "alignItems": "CENTER",
+        "justifyContent": "CENTER",
+        "flexDirection": "ROW",
+        "alignSelf": "STRETCH",
+        "flexGrow": 1,
+        "flexShrink": 1
+      },
+      "marginRight": 5,
+      "marginTop": 5,
+      "borderRadius": 10
+    },
+    "&-gvLabel": {
+      "flexProps": {
+        "flexShrink": 1,
+        "alignSelf": "CENTER",
+        "flexGrow": 1
+      },
+      "width": null,
+      "height": 15,
+      "font": {
+        "size": 13
+      },
+      "textAlignment": "MIDCENTER",
+      "textColor": "rgba( 255, 255, 255, 1 )"
+    }
+  }
+}

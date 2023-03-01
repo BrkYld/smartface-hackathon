@@ -1,0 +1,465 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #PgFilter",
+			"id": "4802-7d0a-5a65-4ba7",
+			"initialized": true,
+			"props": {
+				"children": [
+					"1845-8936-0bce-6d9c",
+					"3ebc-55b2-64d4-1cba",
+					"7fdf-1f06-4ac7-f71a"
+				],
+				"name": "pgFilter",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.11.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "1845-8936-0bce-6d9c",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "4802-7d0a-5a65-4ba7"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "3ebc-55b2-64d4-1cba",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "4802-7d0a-5a65-4ba7",
+				"title": "Filtre"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Filtre"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #PgFilter-container",
+			"id": "7fdf-1f06-4ac7-f71a",
+			"oldName": "flexLayout4",
+			"props": {
+				"children": [
+					"a472-d51a-5367-3bfe",
+					"a9fe-b051-173d-61eb",
+					"9e2d-2b01-de08-4377",
+					"64e9-07d0-76ef-cf5a",
+					"e154-8610-8756-826c",
+					"1dec-df84-ad1f-f25e",
+					"95d0-69a3-936a-6ad6",
+					"9edb-447d-1bd6-9de9",
+					"f5af-062f-2902-ffc0"
+				],
+				"name": "flContainer",
+				"parent": "4802-7d0a-5a65-4ba7"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #PgFilter-myCars",
+			"id": "a472-d51a-5367-3bfe",
+			"oldName": "flexLayout4",
+			"props": {
+				"children": [
+					"51c3-35d2-8bca-9d4e"
+				],
+				"name": "flMycars",
+				"parent": "7fdf-1f06-4ac7-f71a"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #PgFilter-flCarItem",
+			"id": "51c3-35d2-8bca-9d4e",
+			"oldName": "flexLayout5",
+			"props": {
+				"children": [
+					"1af4-e689-c78a-1058",
+					"2f91-16de-5d39-2b39",
+					"b1a7-535e-781f-3250"
+				],
+				"name": "flCarItem",
+				"parent": "a472-d51a-5367-3bfe"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #PgFilter-carImage",
+			"id": "1af4-e689-c78a-1058",
+			"props": {
+				"children": [],
+				"name": "imageView1",
+				"parent": "51c3-35d2-8bca-9d4e"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #PgFilter-carTitle",
+			"id": "2f91-16de-5d39-2b39",
+			"props": {
+				"children": [],
+				"name": "label1",
+				"parent": "51c3-35d2-8bca-9d4e",
+				"text": "Araçlarım"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Araçlarım"
+			}
+		},
+		{
+			"className": ".sf-imageView #PgFilter-rigtArrow",
+			"id": "b1a7-535e-781f-3250",
+			"props": {
+				"children": [],
+				"name": "imageView2",
+				"parent": "51c3-35d2-8bca-9d4e"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-view #pgHome-seperator",
+			"id": "a9fe-b051-173d-61eb",
+			"props": {
+				"children": [],
+				"name": "view1",
+				"parent": "7fdf-1f06-4ac7-f71a"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #PgFilter-myCars",
+			"id": "9e2d-2b01-de08-4377",
+			"oldName": "flexLayout4",
+			"props": {
+				"children": [
+					"6b62-2c80-cdab-a7a7"
+				],
+				"name": "flLocationSet",
+				"parent": "7fdf-1f06-4ac7-f71a"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #PgFilter-flCarItem",
+			"id": "6b62-2c80-cdab-a7a7",
+			"oldName": "flexLayout5",
+			"props": {
+				"children": [
+					"29a5-90b8-6b81-f96b",
+					"c5ef-f2e5-d3be-50c4",
+					"6a7b-3fe6-f4c2-5f24"
+				],
+				"name": "flLocation",
+				"parent": "9e2d-2b01-de08-4377"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #PgFilter-carImage #PgFilter-carImage2",
+			"id": "29a5-90b8-6b81-f96b",
+			"props": {
+				"children": [],
+				"name": "imageView3",
+				"parent": "6b62-2c80-cdab-a7a7"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #PgFilter-carTitle",
+			"id": "c5ef-f2e5-d3be-50c4",
+			"props": {
+				"children": [],
+				"name": "label2",
+				"parent": "6b62-2c80-cdab-a7a7",
+				"text": "Konum Belirle"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Konum Belirle"
+			}
+		},
+		{
+			"className": ".sf-imageView #PgFilter-rigtArrow #pgFilter-rightArrow1",
+			"id": "6a7b-3fe6-f4c2-5f24",
+			"props": {
+				"children": [],
+				"name": "imageView4",
+				"parent": "6b62-2c80-cdab-a7a7"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-view #pgHome-seperator",
+			"id": "64e9-07d0-76ef-cf5a",
+			"props": {
+				"children": [],
+				"name": "view1_1",
+				"parent": "7fdf-1f06-4ac7-f71a"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #PgFilter-myCars",
+			"id": "e154-8610-8756-826c",
+			"oldName": "flSideBar",
+			"props": {
+				"children": [
+					"26c2-b0ed-d255-2913",
+					"003a-593a-95f3-d384"
+				],
+				"name": "flSiderBar",
+				"parent": "7fdf-1f06-4ac7-f71a"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #PgFilter-flCarItem #PgFilter-sliderItem",
+			"id": "26c2-b0ed-d255-2913",
+			"oldName": "flexLayout5",
+			"props": {
+				"children": [
+					"1d5a-76cd-b620-117a"
+				],
+				"name": "flSider",
+				"parent": "e154-8610-8756-826c"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-slider #PgFilter-sider1",
+			"id": "1d5a-76cd-b620-117a",
+			"props": {
+				"children": [],
+				"name": "slider1",
+				"parent": "26c2-b0ed-d255-2913"
+			},
+			"type": "Slider",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #PgFilter-lblCirc",
+			"id": "003a-593a-95f3-d384",
+			"props": {
+				"children": [],
+				"name": "label3",
+				"parent": "e154-8610-8756-826c",
+				"text": "9 Km"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "9 Km"
+			}
+		},
+		{
+			"className": ".sf-view #pgHome-seperator",
+			"id": "1dec-df84-ad1f-f25e",
+			"props": {
+				"children": [],
+				"name": "view1_2",
+				"parent": "7fdf-1f06-4ac7-f71a"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #PgFilter-sort",
+			"id": "95d0-69a3-936a-6ad6",
+			"oldName": "flexLayout5",
+			"props": {
+				"children": [
+					"9137-36c2-9bd5-3a37"
+				],
+				"name": "flSort",
+				"parent": "7fdf-1f06-4ac7-f71a"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #PgFilter-sortContainer",
+			"id": "9137-36c2-9bd5-3a37",
+			"props": {
+				"children": [
+					"9517-4039-655e-bfd5",
+					"a993-d397-e6f8-2a6c"
+				],
+				"name": "flexLayout2",
+				"parent": "95d0-69a3-936a-6ad6"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #PgFilter-sortTitle",
+			"id": "9517-4039-655e-bfd5",
+			"props": {
+				"children": [],
+				"name": "label4",
+				"parent": "9137-36c2-9bd5-3a37",
+				"text": "Sıralama"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Sıralama"
+			}
+		},
+		{
+			"className": ".sf-gridView #PgFilter-gv",
+			"id": "a993-d397-e6f8-2a6c",
+			"props": {
+				"children": [
+					"509b-1413-ee12-ec21"
+				],
+				"itemCount": 5,
+				"itemLength": 25,
+				"layoutManager": {
+					"scrollDirection": "VERTICAL",
+					"spanCount": 3
+				},
+				"name": "gridView1",
+				"parent": "9137-36c2-9bd5-3a37"
+			},
+			"type": "GridView",
+			"userProps": {
+				"itemCount": 5,
+				"itemLength": 25,
+				"layoutManager": {
+					"scrollDirection": "VERTICAL",
+					"spanCount": 3
+				}
+			}
+		},
+		{
+			"className": ".sf-gridViewItem #PgFilter-gvItem",
+			"id": "509b-1413-ee12-ec21",
+			"props": {
+				"children": [
+					"73c1-93f0-02a7-ecaa"
+				],
+				"name": "gridViewItem1",
+				"parent": "a993-d397-e6f8-2a6c"
+			},
+			"type": "GridViewItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #PgFilter-flGV",
+			"id": "73c1-93f0-02a7-ecaa",
+			"props": {
+				"children": [
+					"d3d6-90c2-396c-50a8"
+				],
+				"name": "flexLayout3",
+				"parent": "509b-1413-ee12-ec21"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #PgFilter-gvLabel",
+			"id": "d3d6-90c2-396c-50a8",
+			"props": {
+				"children": [],
+				"name": "label5",
+				"parent": "73c1-93f0-02a7-ecaa",
+				"text": "En Yeni"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "En Yeni"
+			}
+		},
+		{
+			"className": ".sf-view #pgHome-seperator",
+			"id": "9edb-447d-1bd6-9de9",
+			"props": {
+				"children": [],
+				"name": "view1_3",
+				"parent": "7fdf-1f06-4ac7-f71a"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #PgFilter-myCars",
+			"id": "f5af-062f-2902-ffc0",
+			"oldName": "flexLayout5",
+			"props": {
+				"children": [
+					"b361-192d-0bcf-3acc"
+				],
+				"name": "flActionButtons",
+				"parent": "7fdf-1f06-4ac7-f71a"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #PgFilter-flCarItem #PgFilter-flButtonItem",
+			"id": "b361-192d-0bcf-3acc",
+			"props": {
+				"children": [
+					"1734-6f87-33f0-f28c",
+					"f70b-d916-6fb4-5b3c"
+				],
+				"name": "flexLayout1",
+				"parent": "f5af-062f-2902-ffc0"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-button #PgFilter-button #PgFilter-buttonPrim",
+			"id": "1734-6f87-33f0-f28c",
+			"props": {
+				"children": [],
+				"name": "button1",
+				"parent": "b361-192d-0bcf-3acc",
+				"text": "KAYDET"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "KAYDET"
+			}
+		},
+		{
+			"className": ".sf-button #PgFilter-button",
+			"id": "f70b-d916-6fb4-5b3c",
+			"props": {
+				"children": [],
+				"name": "button2",
+				"parent": "b361-192d-0bcf-3acc",
+				"text": "SIFIRLA"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "SIFIRLA"
+			}
+		}
+	]
+}
