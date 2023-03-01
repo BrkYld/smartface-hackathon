@@ -4,7 +4,9 @@
 			"className": ".sf-bottomTabbar",
 			"id": "92ca-d60c-7ad7-8c4c",
 			"props": {
-				"children": [],
+				"children": [
+					"629b-a114-b927-0d70"
+				],
 				"name": "bottomTabbar",
 				"parent": "57f4-201f-4bfc-5fc6"
 			},
@@ -12,6 +14,20 @@
 				"page": "__library__"
 			},
 			"type": "BottomTabbar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem",
+			"id": "629b-a114-b927-0d70",
+			"props": {
+				"children": [],
+				"name": "tabBarItem1",
+				"parent": "92ca-d60c-7ad7-8c4c"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TabBarItem",
 			"userProps": {}
 		}
 	]

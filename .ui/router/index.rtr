@@ -12,10 +12,10 @@
 				"path": "/",
 				"x": 62.312034012839035,
 				"y": -335.9367188115981,
-				"to": "btb1"
+				"to": "btb"
 			},
 			"children": [
-				"878e20f2-f4a8-4af5-a7ca-f6cc4b568364"
+				"1d972e0d-4676-416e-ab8c-629a94cb46d5"
 			]
 		},
 		"libAppRouter": {
@@ -31,42 +31,55 @@
 			},
 			"children": []
 		},
-		"878e20f2-f4a8-4af5-a7ca-f6cc4b568364": {
-			"id": "878e20f2-f4a8-4af5-a7ca-f6cc4b568364",
+		"1d972e0d-4676-416e-ab8c-629a94cb46d5": {
+			"id": "1d972e0d-4676-416e-ab8c-629a94cb46d5",
 			"type": "BottomTabBarRouter",
 			"isContainer": true,
-			"name": "btb1",
+			"name": "btb",
 			"children": [
-				"7aa4aa05-1971-4156-b1ab-62b11d83d83d"
+				"d6fdeb52-44ba-4f80-8b45-b42eb4722eb7"
 			],
 			"isDirty": false,
 			"props": {
-				"path": "btb1",
-				"x": 179.31203401283904,
-				"y": -136.9367188115981,
-				"to": "homeStack"
+				"path": "btb",
+				"x": 167.31203401283904,
+				"y": -227.9367188115981,
+				"to": "home"
 			},
 			"parent": "appRouter"
 		},
-		"7aa4aa05-1971-4156-b1ab-62b11d83d83d": {
-			"id": "7aa4aa05-1971-4156-b1ab-62b11d83d83d",
+		"d6fdeb52-44ba-4f80-8b45-b42eb4722eb7": {
+			"id": "d6fdeb52-44ba-4f80-8b45-b42eb4722eb7",
 			"type": "StackRouter",
+			"isContainer": true,
+			"name": "home",
+			"children": [
+				"a11217b7-52c9-47fe-b336-0a57e93506e0"
+			],
+			"isDirty": false,
+			"props": {
+				"path": "tab0",
+				"x": 288.31203401283904,
+				"y": -103.9367188115981,
+				"homeRoute": "main",
+				"to": "main"
+			},
+			"parent": "1d972e0d-4676-416e-ab8c-629a94cb46d5"
+		},
+		"a11217b7-52c9-47fe-b336-0a57e93506e0": {
+			"id": "a11217b7-52c9-47fe-b336-0a57e93506e0",
+			"type": "Route",
 			"isContainer": false,
-			"name": "homeStack",
+			"name": "main",
 			"children": [],
 			"isDirty": false,
 			"props": {
-				"path": "homeStack",
-				"x": 290.31203401283904,
-				"y": -9.936718811598098,
-				"to": "home",
-				"homeRoute": "home"
+				"path": "main",
+				"x": 440.31203401283904,
+				"y": 47.0632811884019,
+				"page": "pgHome"
 			},
-			"parent": "878e20f2-f4a8-4af5-a7ca-f6cc4b568364",
-			"source": {
-				"id": "0062cda0-9ce2-4495-beb9-c75097677260"
-			},
-			"isLib": true
+			"parent": "d6fdeb52-44ba-4f80-8b45-b42eb4722eb7"
 		}
 	}
 }

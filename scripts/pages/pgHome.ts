@@ -13,7 +13,8 @@ export default class PgHome extends withDismissAndBackButton(PgHomeDesign) {
    */
   onShow() {
     super.onShow();
-    this.initBackButton(this.router); //Addes a back button to the page headerbar.
+    //this.initBackButton(this.router); //Addes a back button to the page headerbar.
+    this.headerBar.title ='1'
   }
 
   /**
